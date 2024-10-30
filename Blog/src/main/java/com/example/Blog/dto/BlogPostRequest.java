@@ -5,6 +5,8 @@ public class BlogPostRequest {
     private String contenuto;
     private int tempoDiLettura;
     private Long authorId;
+    private String categoria;
+    private String cover;
 
     public String getTitolo() {
         return titolo;
@@ -36,5 +38,21 @@ public class BlogPostRequest {
 
     public void setAuthorId(Long authorId) {
         this.authorId = authorId;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public String getCover() {
+        return cover;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
     }
 }

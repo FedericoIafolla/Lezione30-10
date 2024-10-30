@@ -50,6 +50,8 @@ public class BlogPostController {
         blogPost.setTitolo(blogPostRequest.getTitolo());
         blogPost.setContenuto(blogPostRequest.getContenuto());
         blogPost.setTempoDiLettura(blogPostRequest.getTempoDiLettura());
+        blogPost.setCategoria(blogPostRequest.getCategoria());
+        blogPost.setCover(blogPostRequest.getCover());
         blogPost.setAuthor(author);
 
         BlogPost savedPost = blogPostRepository.save(blogPost);
