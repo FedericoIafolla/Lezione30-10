@@ -1,0 +1,4 @@
+package com.example.Blog.payload;
+
+public class GlobalExceptionHandler {
+}
